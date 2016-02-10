@@ -12,6 +12,8 @@
 		C92AAB6D1C665B85002DF7FF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C92AAB6B1C665B85002DF7FF /* Main.storyboard */; };
 		C92AAB6F1C665B85002DF7FF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C92AAB6E1C665B85002DF7FF /* Assets.xcassets */; };
 		C92AAB721C665B85002DF7FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C92AAB701C665B85002DF7FF /* LaunchScreen.storyboard */; };
+		C92AAB7A1C665E42002DF7FF /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C92AAB791C665E42002DF7FF /* TableViewController.swift */; };
+		C92AAB7C1C66609C002DF7FF /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C92AAB7B1C66609C002DF7FF /* CoreLocation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		C92AAB6E1C665B85002DF7FF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C92AAB711C665B85002DF7FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C92AAB731C665B85002DF7FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C92AAB791C665E42002DF7FF /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		C92AAB7B1C66609C002DF7FF /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +33,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C92AAB7C1C66609C002DF7FF /* CoreLocation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -38,6 +43,7 @@
 		C92AAB5B1C665B85002DF7FF = {
 			isa = PBXGroup;
 			children = (
+				C92AAB7B1C66609C002DF7FF /* CoreLocation.framework */,
 				C92AAB661C665B85002DF7FF /* mapPlacemarks */,
 				C92AAB651C665B85002DF7FF /* Products */,
 			);
@@ -56,6 +62,7 @@
 			children = (
 				C92AAB671C665B85002DF7FF /* AppDelegate.swift */,
 				C92AAB691C665B85002DF7FF /* ViewController.swift */,
+				C92AAB791C665E42002DF7FF /* TableViewController.swift */,
 				C92AAB6B1C665B85002DF7FF /* Main.storyboard */,
 				C92AAB6E1C665B85002DF7FF /* Assets.xcassets */,
 				C92AAB701C665B85002DF7FF /* LaunchScreen.storyboard */,
@@ -136,6 +143,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C92AAB6A1C665B85002DF7FF /* ViewController.swift in Sources */,
+				C92AAB7A1C665E42002DF7FF /* TableViewController.swift in Sources */,
 				C92AAB681C665B85002DF7FF /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
